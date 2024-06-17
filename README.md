@@ -1,2 +1,4 @@
-``` brew tap taostat/tscli ```
-``` brew install tscli ``` 
+```
+brew tap taostat/tscli 
+brew install tscli
+``` 
