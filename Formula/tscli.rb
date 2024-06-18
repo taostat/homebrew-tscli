@@ -4,17 +4,17 @@ class Tscli < Formula
   version "0.1.1"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/taostat/homebrew-tscli/releases/download/v26e62a0ed86ea0eabd9a932942d2f5e67abb7833/tscli-macos-x86_64.tar.gz"
+    url "https://github.com/taostat/homebrew-tscli/releases/download/v0cec5cddf2a2f304200f104ef9bab1766da178f7/tscli-x86_64-apple-darwin.tar.gz"
     sha256 ""
   elsif OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/taostat/homebrew-tscli/releases/download/v26e62a0ed86ea0eabd9a932942d2f5e67abb7833/tscli-macos-aarch64.tar.gz"
+    url "https://github.com/taostat/homebrew-tscli/releases/download/v0cec5cddf2a2f304200f104ef9bab1766da178f7/tscli-aarch64-apple-darwin.tar.gz"
     sha256 ""
   elsif OS.linux?
-    url "https://github.com/taostat/homebrew-tscli/releases/download/v26e62a0ed86ea0eabd9a932942d2f5e67abb7833/tscli-linux-x86_64.tar.gz"
+    url "https://github.com/taostat/homebrew-tscli/releases/download/v0cec5cddf2a2f304200f104ef9bab1766da178f7/tscli-x86_64-unknown-linux-gnu.tar.gz"
     sha256 ""
   elsif OS.windows?
-    url "https://github.com/taostat/homebrew-tscli/releases/download/v26e62a0ed86ea0eabd9a932942d2f5e67abb7833/tscli-windows-x86_64.tar.gz"
-    sha256 "4E478F54D28B5362A239DC87DA2E85A6AF634A0A8C986127E5EE7E88B878C0A9"
+    url "https://github.com/taostat/homebrew-tscli/releases/download/v0cec5cddf2a2f304200f104ef9bab1766da178f7/tscli-x86_64-pc-windows-msvc.tar.gz"
+    sha256 "EE1595EB34E43C70FC7592E5FB584817789CE3DC7FFB89BB175C98B3963FA708"
   end
 
   license "MIT"
